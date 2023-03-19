@@ -49,9 +49,9 @@ flatpickr('#datetime-picker', {
   },
 });
 
-function onButtonStartClick(){
+function onButtonStartClick() {
   timerID = setInterval(() => {
-    let timeRemained = (dateFromUser - Date.now());
+    let timeRemained = dateFromUser - Date.now();
 
     if (timeRemained >= 0) {
       buttonStartTimer.disabled = true;
