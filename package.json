@@ -1,7 +1,7 @@
 {
   "name": "parcel-project-template",
   "version": "2.0.0",
-  "description": "",
+  "description": "aaa",
   "homepage": "https://stanislav-kintoriak.github.io/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
