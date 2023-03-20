@@ -21,11 +21,11 @@ const options = {
 
 // refs
 
-buttonStartTimer = document.querySelector('button');
-daysCounter = document.querySelector('[data-days]');
-hoursCounter = document.querySelector('[data-hours]');
-minutesCounter = document.querySelector('[data-minutes]');
-secondsCounter = document.querySelector('[data-seconds]');
+const buttonStartTimer = document.querySelector('button');
+const daysCounter = document.querySelector('[data-days]');
+const hoursCounter = document.querySelector('[data-hours]');
+const minutesCounter = document.querySelector('[data-minutes]');
+const secondsCounter = document.querySelector('[data-seconds]');
 let timerID = null;
 let dateFromUser = 0;
 
